@@ -1,10 +1,10 @@
-Autonomous Obstacle-Avoiding Smart Car:
+Autonomous Obstacle-Avoiding Smart Car
 
 An autonomous 4-wheeled robotic smart car built on the Arduino platform. The project utilizes an ultrasonic distance sensor mounted on a micro servo motor to actively scan its surroundings, compare spatial data, and navigate toward the path with the largest clearance. Thanks to this logic, if placed in an enclosed space or square room with an open exit, the car will dynamically chart a path and find its way out.
 
 ---
 
-Features
+Features:
 
 * **Custom-Built Hardware Drivers:** Built entirely without external, high-level third-party libraries for the core components. 
   * `HC-SR04.h`: A custom-written driver handling low-level pulse triggers and timing conversions (`pulseIn`) to calculate distances in centimeters.
@@ -14,7 +14,7 @@ Features
 
 ---
 
-Hardware Configuration & Pinout
+Hardware Configuration & Pinout:
 
 Based on the default configuration in the source files, the components are wired as follows:
 
@@ -28,7 +28,7 @@ Based on the default configuration in the source files, the components are wired
 
 ---
 
-Installation & Setup
+Installation & Setup:
 
 ### 1. Clone the Repository
 Open your terminal or command prompt and run:
@@ -67,5 +67,4 @@ https://github.com/user-attachments/assets/504c1d3b-490d-422a-885a-d0fb4b86b254
 
 ---
 
-License:
-This project is open-source. Anyone is completely free to download, modify, use, and distribute this software for personal, hobbyist, or educational purposes.
+License: This project is open-source. Anyone is completely free to download, modify, use, and distribute this software for personal, hobbyist, or educational purposes.
