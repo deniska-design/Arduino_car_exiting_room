@@ -61,16 +61,9 @@ Click the Upload arrow button in the top left corner.
 
 ---
 
-Usage:
-Once the firmware is successfully flashed and the car is powered on:
+Execution:
 
-The car initiates an environment sweep by turning the servo sequentially to scan the Right, Left, and Center boundaries.
-
-It pauses for a brief delay (delay(1000)) at each stop to ensure steady sensor stabilization and accurate reads.
-
-The internal logical comparator finds the largest distance entry in the array.
-
-The car executes the movement command toward that clear path, continuously loops the tracking sequence, and avoids collisions seamlessly.
+https://github.com/user-attachments/assets/504c1d3b-490d-422a-885a-d0fb4b86b254
 
 ---
 
